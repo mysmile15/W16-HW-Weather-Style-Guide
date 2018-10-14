@@ -17,9 +17,10 @@ color
 }
 
 body {
-  background: url(images/paper-texture.jpg) no-repeat;
+  background-image: url('images/paper-texture.jpg') no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  background-color: #d1d1d1;
   color: black;
   line-height: 1.4em;
   font-size: 18px;
@@ -117,6 +118,10 @@ nav a:active {
 .containerbox {
   float: right;
   width: 80%;
+  background: url('images/paper-texture.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(255, 243, 228);
 }
 
 .section-container {
