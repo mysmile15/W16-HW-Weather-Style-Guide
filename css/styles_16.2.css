@@ -121,7 +121,7 @@ nav a:active {
   background: url('images/paper-texture.jpg') no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgb(255, 243, 228);
+  background-color: linear-gradient(#dfdfdf, #f1f1f1);
 }
 
 .section-container {
