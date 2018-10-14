@@ -1,0 +1,83 @@
+/* 
+====================================
+Sets up styles for sidebar / navigation containers
+====================================
+color
+#1c4984
+#4682B4
+#0785CA
+#86B4E1
+#64DBDF
+*/
+
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: #ffffff;
+  }
+  .nav-logo {
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 30px;
+    background: #fff;
+    color: #1c4984;
+  }
+
+  .sidebar-container {
+    margin: 0px;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background: #4682b4;
+    z-index: 9999;
+    box-shadow: 0 2px 2px rgba(194, 194, 194, 0.3);
+    top: 0;
+    left: 0;
+  }
+
+  .sidebar-logo {
+    position: fixed;
+    top: 10px;
+    left: 60px;
+    width: 60px;
+    background: #4682b4;
+  }
+
+  .media-title {
+    display: inline;
+    font-family: 'Patua One', cursive;
+    font-size: 150%;
+    color: #fff;
+  }
+
+  .nav-logo {
+    display: inline-block;
+    background: #4682b4;
+  }
+
+  .nav-logo p {
+    display: none;
+  }
+
+  .styleguide {
+    display: none;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .containerbox {
+    width: 100%;
+  }
+
+  .svg-icons img {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 574px) {
+  .svg-icons img {
+    width: 100%;
+  }
+}
